@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:登陆验证
  *
  * @Author: yangzhicheng
  * @Date: 2018/9/10 11:41
