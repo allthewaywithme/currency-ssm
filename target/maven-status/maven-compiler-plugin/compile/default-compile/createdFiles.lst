@@ -1,0 +1,5 @@
+com\currency\user\controller\UserController.class
+com\currency\user\entity\User.class
+com\currency\user\service\UserService.class
+com\currency\user\service\UserServiceImpl.class
+com\currency\user\dao\UserMapper.class
