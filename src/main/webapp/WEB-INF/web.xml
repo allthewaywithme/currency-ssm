@@ -61,10 +61,10 @@
   </servlet-mapping>
 
   <!--static下的所有资源都不拦截 针对spring-mvc里的拦截器的拦截所有资源-->
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>/static/*</url-pattern>
-  </servlet-mapping>
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>default</servlet-name>-->
+    <!--<url-pattern>/static/*</url-pattern>-->
+  <!--</servlet-mapping>-->
 
   <context-param>
     <param-name>log4jConfigLocation</param-name>

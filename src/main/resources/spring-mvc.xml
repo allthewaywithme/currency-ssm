@@ -31,12 +31,12 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
     <!--处理静态资源 针对下面的拦截器-->
-    <mvc:default-servlet-handler/>
+  <!--  <mvc:default-servlet-handler/>
 
     <mvc:interceptors>
-        <!--拦截了所有请求 包括静态资源-->
+        &lt;!&ndash;拦截了所有请求 包括静态资源&ndash;&gt;
         <bean class="com.currency.common.interceptor.SessionInterceptor"/>
-    </mvc:interceptors>
+    </mvc:interceptors>-->
 
     <bean id="velocityConfigurer" class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
         <property name="resourceLoaderPath" value="/WEB-INF/views"/>
