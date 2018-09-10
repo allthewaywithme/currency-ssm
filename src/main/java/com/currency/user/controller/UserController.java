@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Date: 2018/9/10 11:10
  */
 @Controller
-@RequestMapping
+@RequestMapping("user")
 public class UserController {
 
     @Autowired
